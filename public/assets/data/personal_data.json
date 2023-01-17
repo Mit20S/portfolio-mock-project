@@ -1,0 +1,30 @@
+{
+    "profile": [],
+
+    "education": [{
+        "edu_id" : 1,
+        "course" : "CBSE",
+        "institution" : "Lok Puram Public School",
+        "location" : "Thane, Maharashtra",
+        "pass_year" : "2016"
+     },
+     {
+        "edu_id" : 2,
+        "course" : "HSC",
+        "institution" : "Shivai Junior College",
+        "location" : "Thane, Maharashtra",
+        "pass_year" : "2018"
+     },
+     {
+        "edu_id" : 3,
+        "course" : "BTech",
+        "institution" : "K.J. Somaiya College of Engineering, Vidyavihar",
+        "location" : "Mumbai, Maharashtra",
+        "pass_year" : "2022"
+     }
+    ],
+    "projects": [],
+    "skills": [],
+    "experience": [],
+    "contact": []
+}
