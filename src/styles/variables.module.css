@@ -1,0 +1,24 @@
+:root{
+    /* Colours */
+    --blue : #00A7E1;
+    --cornflower-blue: #26408B;
+    --dark : #0D0221;
+    --midnight-blue: #0F084B;
+    --text-light: #ffffff;
+    --text-dark: #000000;
+
+    /* Padding */
+    --p-5: 5px;
+    --p-10: 10px;
+    --p-15: 15px;
+
+    /* Margin */
+    --m-5: 5px;
+    --m-10: 10px;
+    --m-15: 15px;
+
+    /* Font Size */
+    --heading : 26px;
+    --sub-heading: 22px;
+    --body-text: 18px;
+}
