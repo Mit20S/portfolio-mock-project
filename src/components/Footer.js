@@ -5,7 +5,7 @@ function Footer(){
     return(
         <footer>
             <div className={styles.mainFooter}>
-                <p className={styles.pMargin}>&copy; Copyright 2023 <b> My PortFolio </b>- All Rights Reserved</p>
+                <p className={styles.pMargin}>&copy; Copyright 2023 <b> Mumbai Studios Team</b></p>
             </div>
         </footer>
     );

@@ -1,8 +1,10 @@
+import Header from './Header';
+import Footer from './Footer';
+
 import{Link} from 'react-router-dom';
 import styles from '../styles/project.module.css';
 import axios from 'axios';
 import { useState } from "react";
-
 
 function Project(){
     
@@ -27,11 +29,13 @@ function Project(){
 
     return(
     <>
-    {/* <input type="button" value="Get data" onClick={getData_click}></input> */}
-    <div>
-        <p className={styles.heading}>PROJECTS</p>
-    {result}
-    </div>
+        <Header />
+        {/* <input type="button" value="Get data" onClick={getData_click}></input> */}
+        <div>
+            <p className={styles.heading}>PROJECTS</p>
+        {result}
+        </div>
+        <Footer />
     </>
     );
 }

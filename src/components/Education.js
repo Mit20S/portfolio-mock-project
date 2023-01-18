@@ -1,3 +1,6 @@
+import Header from "./Header"
+import Footer from "./Footer"
+
 import variables from "../styles/variables.module.css";
 // import useStyles from "../styles/app.module.css";
 import styles from "../styles/education.module.css";
@@ -33,6 +36,7 @@ function Education(){
 
     return(
         <>
+            <Header />
             <div className={styles.mainHeading}>
                <h1 className={styles.mainTitle}>EDUCATION</h1>
             </div>
@@ -40,6 +44,7 @@ function Education(){
             <div className={styles.mainBlock}>
                 {result}
             </div>
+            <Footer />
         </>
     );
 }

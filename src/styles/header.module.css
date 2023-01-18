@@ -20,13 +20,15 @@
     padding-bottom: 5px;
   }
   
-  .leftNav span{
+  .leftNav span a{
+    color:white;
+    text-decoration: none;
     font-size: 30px;
     font-weight: bold;
     padding-left: 12px;
   }
   
-  .leftNav span:hover{
+  .leftNav span a:hover{
     color: var(--blue);
   }
   

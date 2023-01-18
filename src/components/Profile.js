@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer"
 import Img from "../assets/personal.jpg";
 import styles from "../styles/profile.module.css"
 
@@ -21,6 +22,7 @@ function Profile(){
                     <a target="blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><AiFillInstagram /> </a>
                 </div>
             </section>
+            <Footer />
         </section>
     )
 } 
