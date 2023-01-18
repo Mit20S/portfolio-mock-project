@@ -1,13 +1,13 @@
 import variables from "./styles/variables.module.css";
 import styles from "./styles/app.module.css"
-import Education from "./components/Education";
+import Professional from "./components/Professional";
 import Header from "./components/Header";
 
 function App() {
   return (
     <div>
       <Header/>
-      <Education></Education>
+      <Professional></Professional>
     </div>
   );
 }

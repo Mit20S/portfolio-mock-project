@@ -1,10 +1,10 @@
-import styles from "../styles/education.module.css"
+import styles from "../styles/professional.module.css"
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { BsStarFill } from "react-icons/bs";
 import { BsStar } from "react-icons/bs";
 
-function Education() {
+function Professional() {
 
   const url = "http://localhost:3000/professional/";
 
@@ -77,4 +77,4 @@ function Education() {
   );
 }
 
-export default Education;
+export default Professional;
