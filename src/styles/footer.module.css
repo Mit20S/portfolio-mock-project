@@ -1,0 +1,11 @@
+.mainFooter{
+    background-color: var(--dark);
+    text-align: center;
+    padding: var(--p-15);
+    color: var(--text-light);
+    margin-top: var(--m-15);
+}
+
+.pMargin{
+    margin:0;
+}

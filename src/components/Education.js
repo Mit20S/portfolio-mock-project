@@ -3,6 +3,7 @@ import variables from "../styles/variables.module.css";
 import styles from "../styles/education.module.css";
 import axios from 'axios';
 import { useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
 
 function Education(){
     // Declaring the constant url
@@ -33,7 +34,7 @@ function Education(){
     return(
         <>
             <div className={styles.mainHeading}>
-               <h1 className={styles.mainTitle}>Education</h1>
+               <h1 className={styles.mainTitle}>EDUCATION</h1>
             </div>
             {/* <hr/> */}
             <div className={styles.mainBlock}>

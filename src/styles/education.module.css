@@ -2,12 +2,15 @@
     color: var(--blue);
     text-align: center;
     padding: var(--p-10);
-    background-color: var(--midnight-blue);
+    /* background-color: var(--midnight-blue); */
 }
 
 .mainTitle{
-    
-    font-size: var(--heading);
+    font-weight: 800;
+    background: linear-gradient(45deg, var(--midnight-blue) 20%, var(--blue));
+    font-size: 45px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .subTitle{
     font-size: var(--sub-heading);
@@ -26,8 +29,8 @@
     text-align: center;
     margin:20px;
     padding:10px;
-    background-color: var(--dark);
-    box-shadow: 5px 7px 8px var(--cornflower-blue);
+    background-color: var(--midnight-blue);
+    box-shadow: 5px 5px 5px var(--cornflower-blue);
     animation-name: card-appear;
     animation-duration: 1s;
 }
@@ -38,7 +41,7 @@
         color: black;
     }
     to {
-        background-color: var(--dark);
+        background-color: var(--midnight-blue);
         color: var(--text-light);
     }
 }

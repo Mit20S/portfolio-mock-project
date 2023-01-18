@@ -1,14 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 
 import App from './App';
-
+import Header from './components/Header';
+import Footer from './components/Footer';
 import Education from './components/Education';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Education />
+    <Router>
+      <Header/>
+
+      <Routes>
+        <Route path="/education" element = {<Education/>}/>
+      </Routes>
+
+      <Footer/>
+    </Router>
   </React.StrictMode>
 );
 
