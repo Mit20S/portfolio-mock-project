@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Education from './components/Education';
 import Professional from './components/Professional';
+import Project from './components/Project';
 
 
 
@@ -20,7 +21,7 @@ root.render(
       <Routes>
         <Route path="/education" element = {<Education/>}/>
         <Route path="/professional" element = {<Professional/>}/>
-        <Route path="/professional" element = {<Professional/>}/>\
+        <Route path="/Project" element = {<Project/>}/>\
         
 
       </Routes>
