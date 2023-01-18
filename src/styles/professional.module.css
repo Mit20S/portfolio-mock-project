@@ -1,0 +1,152 @@
+/* Title */
+
+.titleDiv{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+.title{
+  font-weight: 800;
+  background: linear-gradient(45deg, var(--midnight-blue) 0%, var(--blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background-image: linear-gradient(45deg, var(--midnight-blue), var(--blue));
+  text-shadow: 0px 0px 5px var(--blue), 0px 0px 10px var(--blue), 0px 0px 10px var(--blue), 0px 0px 20px var(--blue);
+  background-clip: text;
+  -webkit-background-clip: text; */
+}
+
+/* Summary */
+
+.summaryDiv{
+  background-color: var(--midnight-blue);
+  opacity: 0.8;
+  width: 50%;
+  padding: 40px;
+  margin: 10px 20px 10px 10px;
+  animation: LeftToRight 3s ease;
+}
+
+.summaryDiv p{
+  font-size: var(--body-text);
+  text-align: justify;
+  color: var(--text-light);
+}
+
+.summaryDiv h1{
+  color: var(--text-light);
+}
+
+/* Skills */
+
+.skillDiv{
+  background-color: var(--midnight-blue);
+  opacity: 0.8;
+  width: 33%;
+  padding: 40px;
+  margin: 10px 10px;
+  animation: RightToLeft 3s ease;
+}
+
+.skillDiv h1{
+  color: var(--text-light);
+}
+
+.skillSubDiv{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.skillCard{
+  background-color: var(--blue);
+  margin: var(--m-10);
+  color: var(--text-light);
+  font-weight: bold;
+  font-size: var(--body-text);
+  padding: 3px;
+  box-shadow: 6px 6px var(--midnight-blue);
+}
+
+.skillCard p{
+  text-align: center;
+  margin: 0px;
+}
+
+.skillCard hr{
+  margin: 4px;
+  color: white;
+  border: 1px white solid;
+}
+
+.icon{
+  color: var(--text-light);
+  font-weight: bold;
+}
+
+.skillCard:hover{
+  box-shadow: 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white, 
+  0px 0px 5px white;
+}
+
+/* Skills and Summary Div */
+
+.mainDiv{
+  display: flex;
+  flex-direction: row;
+  margin: 0px 50px;
+  justify-content: center;
+  position:relative;
+}
+
+/* Experience */
+
+.expDiv{
+  background-color: var(--midnight-blue);
+  opacity: 0.8;
+  margin: 20px 60px;
+  padding: 40px;
+}
+
+.expDiv h1{
+  color: var(--text-light);
+}
+
+.expCard{
+  margin: 30px 20px;
+  padding: var(--p-15);
+  background-color: var(--blue);
+}
+
+.expCard hr{
+  color: midnightblue;
+  border: 1px var(--midnight-blue) solid;
+  margin: 20px 0px;
+}
+
+.expCard h2{
+  margin-bottom: 0px;
+}
+
+.expCard p,span{
+  margin: 3px;
+  font-size: var(--body-text);
+}
+
+.expCard:hover{
+  box-shadow: 0px 0px 5px white, 0px 0px 5px white, 0px 0px 5px white, 
+  0px 0px 5px white;
+}
+
+/* Animations */
+
+@keyframes LeftToRight {
+  0% {transform: translateX(-900px);}
+  100% {transform: translateX(0px);}
+}
+
+@keyframes RightToLeft {
+  0% {transform: translateX(1500px);}
+  100% {transform: translateX(0px);}
+}
