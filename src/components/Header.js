@@ -15,7 +15,7 @@ function Header() {
               <li>Profile</li>
               <li><Link to = "/education" className={styles.linkStyle}>Education</Link></li>
               <li>Projects</li>
-              <li>Professional</li>
+              <li><Link to = "/professional" className={styles.linkStyle}>Professional</Link></li>
               <li>Resume</li>
               <li>Contact</li>
             </ul>

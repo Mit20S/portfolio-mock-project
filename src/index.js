@@ -6,6 +6,7 @@ import App from './App';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Education from './components/Education';
+import Professional from './components/Professional';
 
 
 
@@ -18,6 +19,8 @@ root.render(
 
       <Routes>
         <Route path="/education" element = {<Education/>}/>
+        <Route path="/professional" element = {<Professional/>}/>
+
       </Routes>
 
       <Footer/>
