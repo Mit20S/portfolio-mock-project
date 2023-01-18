@@ -1,19 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+
 import App from './App';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Profile from "./components/Profile"
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Education from './components/Education';
+import Professional from './components/Professional';
+import Project from './components/Project';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<React.StrictMode>
-		<Router>
-			<Routes>
-				<Route path="/" element={<App />} />
-				<Route path="/profile" element={<Profile/>} />
-			</Routes>
-		</Router>
+  <React.StrictMode>
+    <Router>
+      <Header/>
 
-	</React.StrictMode>
+      <Routes>
+        <Route path="/education" element = {<Education/>}/>
+        <Route path="/professional" element = {<Professional/>}/>
+        <Route path="/Project" element = {<Project/>}/>\
+        
+
+      </Routes>
+
+      <Footer/>
+    </Router>
+  </React.StrictMode>
 );
+
 
