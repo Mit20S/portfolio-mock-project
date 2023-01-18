@@ -1,14 +1,12 @@
 import variables from "./styles/variables.module.css";
-import styles from "./styles/app.module.css"
-import Professional from "./components/Professional";
-import Header from "./components/Header";
+import styles from "./styles/app.module.css";
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Professional></Professional>
-    </div>
+    <>
+      
+    </>
   );
 }
 

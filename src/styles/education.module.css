@@ -1,0 +1,54 @@
+.mainHeading{
+    color: var(--blue);
+    text-align: center;
+    padding: var(--p-10);
+    /* background-color: var(--midnight-blue); */
+}
+
+.mainTitle{
+    font-weight: 800;
+    background: linear-gradient(45deg, var(--midnight-blue) 20%, var(--blue));
+    font-size: 45px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subTitle{
+    font-size: var(--sub-heading);
+    color: var(--blue)
+}
+
+.bodyContent{
+    font-size: var(--body-text);
+    color: var(--text-light);
+}
+
+.eduBlock{
+    /* border:4px solid white; */
+    border-radius: 8px;
+    width:400px;
+    text-align: center;
+    margin:20px;
+    padding:10px;
+    background-color: var(--midnight-blue);
+    box-shadow: 5px 5px 5px var(--cornflower-blue);
+    animation-name: card-appear;
+    animation-duration: 1s;
+}
+
+@keyframes card-appear {
+    from {
+        background-color: white;
+        color: black;
+    }
+    to {
+        background-color: var(--midnight-blue);
+        color: var(--text-light);
+    }
+}
+
+.mainBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: var(--blue); */
+}    

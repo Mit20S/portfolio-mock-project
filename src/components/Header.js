@@ -1,5 +1,5 @@
 import styles from "../styles/header.module.css"
-import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -13,9 +13,9 @@ function Header() {
           <div>
             <ul className={styles.rightNav}>
               <li>Profile</li>
-              <li>Education</li>
+              <li><Link to = "/education" className={styles.linkStyle}>Education</Link></li>
               <li>Projects</li>
-              <li>Professional</li>
+              <li><Link to = "/professional" className={styles.linkStyle}>Professional</Link></li>
               <li>Resume</li>
               <li>Contact</li>
             </ul>
