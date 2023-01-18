@@ -23,7 +23,37 @@
       "pass_year" : "2022"
    }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "project_name":"FPGA Based Implementation of Neural Network",
+      
+      "technology": "Hardware Designing using Field Programmable Gate Array (FPGA) and Verilog ",
+      
+      "contribution": "In this project I have worked on MNIST dataset for the testing and training of the NN model. For this application I have used both software and hardware platforms to obtain efficient outcomes and identify a comparative analysis between the software and hardware performance on the basis of various parameters. These parameters include accuracy, resource utilisation and operating frequency.",
+      
+      "description": "With the development of technology, NN and its significance have increased over the years. Utilizations of NN like face recognition, text and digit recognition, and image classifications have been generally acknowledged everywhere. A NN is a bunch of calculations that endeavours to recognise fundamental connections in a cluster of information utilizing a technique that emulates how the human brain functions. In this project FPGAs have been considered as an alluring stage for NN execution as they are appropriate hardware accelerators absolutely inferable from their adaptability and productivity."
+  },
+      
+  {
+      "project_name":"Mobile Phone Detector",
+      
+      "technology": "Electronic transmission and reception via RF signal",
+      
+      "contribution": "Detector-Designed and build a mobile phone detector which can sense the presence of a mobile phone(during incoming calls/messages) from short distance.",
+      
+      "description": "it detects RF signal from a mobile phone, the LED starts blinking. This device can come handy in defence locations, examination hall and meetings where mobile phones are not permitted."
+  },
+
+  {
+      "project_name":"Soccor Robot",
+      
+      "technology": "Robotics",
+      
+      "contribution": "Designed a four wheel drive robot and was the lead controller in IIT-B competation",
+      
+      "description": "A four wheel drive robot with a moving hand mechanism which can play soccer against competitor robots."
+  }
+  ],
   "professional": {
     "summary":"I am Ankeet Thongire. I will describe myself as an active and curious-minded person with some leadership experience. Throughout my college life, I have explored different computer technologies to find where my interest lies. So I made websites as well as apps and found out that I liked app development more. I also did a course for python, tried machine learning, and currently, I'm working on a mock project to make a portfolio website using react.", 
     "skills":[
