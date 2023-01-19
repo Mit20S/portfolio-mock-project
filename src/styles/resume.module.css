@@ -46,3 +46,24 @@
 .downloadDiv button:hover{
   background-color: var(--blue);
 }
+
+/* Header section */
+
+.resume{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.nameAndImg{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.nameAndImg img{
+  height: 15vw;
+  border-radius: 50%;
+}
