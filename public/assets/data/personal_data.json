@@ -1,5 +1,15 @@
 {
-  "profile": ["A dedicated, organised and methodical individual who has good interpersonal skills, is an excellent team worker and is very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas. I have an active and dynamic approach to work and getting things done."],
+  "profile": {
+    "summary":"A dedicated, organised and methodical individual who has good interpersonal skills, is an excellent team worker and is very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas. I have an active and dynamic approach to work and getting things done.",
+    "name": "Evin Daniel Renji",
+    "deloitte_mail": "shlingala@deloitte.com",
+    "phone": "+91 98333 82785",
+    "location": "Mumbai, Maharashtra",
+    "twitter":"",
+    "instagram": "",
+    "github":"",
+    "facebook" : ""
+  },
   "education": [
     {
       "edu_id" : 1,

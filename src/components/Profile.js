@@ -15,7 +15,7 @@ function Profile(){
 
     axios.get(url).then( resData => 
     {
-        setSummary(resData.data);
+        setSummary(resData.data.summary);
     });
 
     return(
