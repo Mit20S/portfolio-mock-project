@@ -13,3 +13,36 @@
   -webkit-text-fill-color: transparent;
   margin: 30px 0px;
 }
+
+.downloadDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.downloadDiv button{
+  font-family: Helvetica, sans-serif;
+  background-color: var(--midnight-blue);
+  color: var(--text-light);
+  font-weight: bold;
+  font-size: var(--body-text);
+  border:0;
+  margin: 15px;
+  padding: var(--p-15);
+  border-radius: 14px;
+}
+
+.downloadDiv button{
+  font-family: Helvetica, sans-serif;
+  background-color: var(--midnight-blue);
+  color: var(--text-light);
+  font-weight: bold;
+  font-size: var(--body-text);
+  border:0;
+  margin: 15px;
+  padding: var(--p-15);
+  border-radius: 14px;
+}
+
+.downloadDiv button:hover{
+  background-color: var(--blue);
+}

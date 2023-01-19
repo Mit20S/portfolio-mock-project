@@ -17,13 +17,13 @@ function Resume(){
             <div className={styles.mainHeading}>
                <h1 className={styles.mainTitle}>RESUME</h1>
             </div>
-            {/* <hr/> */}
-            <div className={styles.mainBlock}>
+
+            <div>
                 {/* {result} */}
             </div>
 
-            <div>
-              <input type="button" value="Download Resume"/>
+            <div className={styles.downloadDiv}>
+              <button>Download Pdf</button>
             </div>
             <Footer />
         </>
