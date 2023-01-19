@@ -1,0 +1,34 @@
+.heading{
+    font-weight: 800;
+    background: linear-gradient(45deg, var(--midnight-blue) 25%, var(--blue));
+    font-size: 45px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.card{
+    background-color: var(--midnight-blue);
+    padding: var(--p-10);
+    margin: var(--m-15);
+    color: var(--text-light);
+    border-radius: 10px;
+}
+
+.title{
+    color: var(--blue);
+    font-size: var(--sub-heading);
+    text-align: justify;
+}
+
+.technology{
+ font-size: var(--body-text);
+}
+
+.description, .contribution{
+    text-align: justify;
+    padding: 5px;
+}
+
+
+

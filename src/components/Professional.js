@@ -1,3 +1,6 @@
+import Header from "./Header";
+import Footer from "./Footer";
+
 import styles from "../styles/professional.module.css"
 import { useEffect, useState } from 'react';
 import axios from 'axios';
@@ -48,6 +51,7 @@ function Professional() {
 
   return (
     <>
+      <Header />
       <div className={styles.titleDiv}>
         <h1 className={styles.title}>PROFESSIONAL DETAILS</h1>
       </div>
@@ -73,6 +77,7 @@ function Professional() {
         <hr></hr>
         {experience_result}
       </div>
+      <Footer />
     </>
   );
 }

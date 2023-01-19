@@ -8,13 +8,13 @@ function Header() {
       <div className={styles.stick_top}>
         <div className={styles.mainHeader}>
           <div className={styles.leftNav}>
-            <span>My PortFolio</span>
+            <span><Link to="/">My PortFolio</Link></span>
           </div>
           <div>
             <ul className={styles.rightNav}>
-              <li>Profile</li>
+              <li><Link to = "/profile" className={styles.linkStyle}>Profile</Link></li>
               <li><Link to = "/education" className={styles.linkStyle}>Education</Link></li>
-              <li>Projects</li>
+              <li><Link to = "/Project" className={styles.linkStyle}>Project</Link></li>
               <li><Link to = "/professional" className={styles.linkStyle}>Professional</Link></li>
               <li>Resume</li>
               <li>Contact</li>
