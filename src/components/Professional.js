@@ -25,10 +25,10 @@ function Professional() {
       <hr></hr>
       <span>
         {[...Array(item.rating)].map((item,index) => 
-          <BsStarFill className={styles.icon}></BsStarFill>
+          <BsStarFill key={index} className={styles.icon}></BsStarFill>
         )}
         {[...Array(5-item.rating)].map((item,index) => 
-          <BsStar className={styles.icon}></BsStar>
+          <BsStar  key={index} className={styles.icon}></BsStar>
         )}
       </span>
     </div>

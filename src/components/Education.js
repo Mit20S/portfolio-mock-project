@@ -1,9 +1,9 @@
 import variables from "../styles/variables.module.css";
 // import useStyles from "../styles/app.module.css";
 import styles from "../styles/education.module.css";
-import axios from 'axios';
+import axios from "axios";
 import { useEffect, useState } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Education(){
     // Declaring the constant url
