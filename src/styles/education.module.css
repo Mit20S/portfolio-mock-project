@@ -8,9 +8,10 @@
 .mainTitle{
     font-weight: 800;
     background: linear-gradient(45deg, var(--midnight-blue) 20%, var(--blue));
-    font-size: 45px;
+    font-size: var(--heading);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: 30px 0px;
 }
 .subTitle{
     font-size: var(--sub-heading);
