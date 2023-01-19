@@ -27,11 +27,6 @@
     background-color: white;
 }
 
-.imgDesc span{
-    color: var(--blue);
-    text-decoration: underline;
-}
-
 /* Social */
 
 .social{

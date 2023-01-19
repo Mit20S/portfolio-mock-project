@@ -17,7 +17,6 @@ function Header() {
               <li><Link to = "/Project" className={styles.linkStyle}>Project</Link></li>
               <li><Link to = "/professional" className={styles.linkStyle}>Professional</Link></li>
               <li>Resume</li>
-              <li>Contact</li>
             </ul>
           </div>
         </div>
