@@ -53,3 +53,9 @@
     align-items: center;
     /* background-color: var(--blue); */
 }    
+
+.resumeSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

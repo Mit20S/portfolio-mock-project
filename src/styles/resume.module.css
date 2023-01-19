@@ -59,11 +59,31 @@
 
 .nameAndImg{
   display: flex;
-  justify-content: space-between;
   width: 80%;
+  margin-top: 20px;
 }
 
 .nameAndImg img{
   height: 15vw;
   border-radius: 50%;
+  margin-left: 50px;
+}
+
+.name{
+  width: 65%;
+}
+
+.resumeSection{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.projAndExp{
+  width: 70%;
+}
+
+.skillsAndEdu{
+  margin-left: 50px;
 }
