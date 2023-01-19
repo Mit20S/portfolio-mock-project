@@ -4,19 +4,16 @@ import Footer from './Footer';
 import{Link} from 'react-router-dom';
 import styles from '../styles/project.module.css';
 import axios from 'axios';
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+import GetData from "./GetData";
 
 function Project(){
     
+    let url = "http://localhost:3000/projects";
     const [dataArray, setdataArray]  =  useState([]);
     
-    // function getData_click(){
-        let url = "http://localhost:3000/projects";
-        axios.get(url).then(resData => {
-            console.log(resData.data);
-            setdataArray(resData.data);
-        }) 
-    // }
+    GetData(url, dataArray, setdataArray);
 
     let result = dataArray.map((item,index) =>
     <div key={index} className={styles.card}>

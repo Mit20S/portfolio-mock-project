@@ -2,10 +2,11 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Img from "../assets/personal.jpg";
 import styles from "../styles/profile.module.css";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import { AiFillGithub, AiFillFacebook , AiFillTwitterCircle, AiFillInstagram} from 'react-icons/ai'
+import GetData from "./GetData";
 
 function Profile(){
 
@@ -13,10 +14,7 @@ function Profile(){
 
     const [mainObj, setmainObj] = useState("");
 
-    axios.get(url).then( resData => 
-    {
-        setmainObj(resData.data);
-    });
+    GetData(url, mainObj, setmainObj)
 
     return(
         <section>

@@ -2,7 +2,7 @@ import variables from "./styles/variables.module.css";
 import styles from "./styles/app.module.css"
 import { Link } from "react-router-dom";
 
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import axios from "axios";
 
 function App() {
@@ -10,10 +10,11 @@ function App() {
 
     const [mainObj, setmainObj] = useState("");
 
-    axios.get(url).then( resData => 
-    {
-        setmainObj(resData.data);
-    });
+    useEffect(() => {
+		axios.get(url).then( resData => {
+        	setmainObj(resData.data);
+   		});
+	},[mainObj])
 
 	return (
 		<main>

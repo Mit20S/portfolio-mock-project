@@ -4,8 +4,10 @@ import { BsTelephoneFill } from "react-icons/bs";
 import {MdOutlineAlternateEmail} from "react-icons/md"
 import { MdLocationPin} from "react-icons/md"
 
-import {useState} from "react"
+import {useState, useEffect} from "react"
 import axios from "axios";
+
+import GetData from "./GetData";
 
 function Footer(){
 
@@ -13,10 +15,7 @@ function Footer(){
 
     const [mainObj, setmainObj] = useState("");
 
-    axios.get(url).then( resData => 
-    {
-        setmainObj(resData.data);
-    });
+    GetData(url, mainObj, setmainObj)
 
     return(
         <footer>
