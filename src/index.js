@@ -6,7 +6,8 @@ import App from './App';
 import Education from './components/Education';
 import Professional from './components/Professional';
 import Project from './components/Project';
-import Profile from './components/Profile'
+import Profile from './components/Profile';
+import Resume from './components/Resume'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +19,8 @@ root.render(
 		    <Route path="/profile" element = {<Profile />}/>
         <Route path="/education" element = {<Education/>}/>
         <Route path="/professional" element = {<Professional/>}/>
-        <Route path="/Project" element = {<Project/>}/>
+        <Route path="/project" element = {<Project/>}/>
+        <Route path="/resume" element = {<Resume/>}/>
 
       </Routes>
     </Router>

@@ -1,0 +1,15 @@
+.mainHeading{
+  color: var(--blue);
+  text-align: center;
+  padding: var(--p-10);
+  /* background-color: var(--midnight-blue); */
+}
+
+.mainTitle{
+  font-weight: 800;
+  background: linear-gradient(45deg, var(--midnight-blue) 20%, var(--blue));
+  font-size: var(--heading);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 30px 0px;
+}

@@ -2,7 +2,6 @@ import Header from "./Header"
 import Footer from "./Footer"
 
 import variables from "../styles/variables.module.css";
-// import useStyles from "../styles/app.module.css";
 import styles from "../styles/education.module.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
