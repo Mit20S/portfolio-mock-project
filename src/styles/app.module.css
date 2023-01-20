@@ -51,3 +51,11 @@ body{
     text-decoration: none;
     color: var(--text-light);
 }
+
+/* Media Queries For Smartphones*/
+
+@media screen and (max-width: 500px) {
+    .bigHeading{
+        font-size: 1.3rem;
+    }    
+}

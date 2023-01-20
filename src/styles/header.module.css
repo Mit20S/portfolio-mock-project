@@ -36,11 +36,12 @@
     display: flex;
     list-style-type: none;
     margin: 0px;
+    padding: 0;
   }
   
   .rightNav li{
-    padding: 20px;
-    font-size: 22px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .linkStyle{
@@ -64,3 +65,24 @@
     0%   {opacity: 0%;}
     100% {opacity: 100%;}
   }
+
+/* Media Queries */
+
+@media screen and (max-width: 500px) {
+  .mainHeader{
+    flex-direction: column;
+  }
+  
+  .rightNav{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .rightNav li{
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
+
+  

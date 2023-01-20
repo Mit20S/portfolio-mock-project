@@ -16,3 +16,12 @@
     gap:10vw;
     margin: 20px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 500px) {
+    .contactDetails{
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+}

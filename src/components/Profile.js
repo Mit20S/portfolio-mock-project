@@ -2,8 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Img from "../assets/personal.jpg";
 import styles from "../styles/profile.module.css";
-import { useState, useEffect } from 'react';
-import axios from 'axios';
+import { useState} from 'react';
 
 import { AiFillGithub, AiFillFacebook , AiFillTwitterCircle, AiFillInstagram} from 'react-icons/ai'
 import GetData from "./GetData";
