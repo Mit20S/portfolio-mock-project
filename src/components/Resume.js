@@ -1,6 +1,9 @@
 import Header from "./Header"
 import Footer from "./Footer"
 
+import React, { useRef } from 'react';
+import { useReactToPrint } from 'react-to-print';
+
 import variables from "../styles/variables.module.css";
 import styles from "../styles/resume.module.css";
 import axios from "axios";
@@ -9,6 +12,8 @@ import GetData from "./GetData";
 import CVDisplay from "./CVDisplay";
 
 function Resume(){
+    const componentRef = useRef();
+
     // Declaring the constant url
     const profileUrl = "http://localhost:3000/profile";
     const educationUrl = "http://localhost:3000/education";
@@ -31,6 +36,10 @@ function Resume(){
     GetData(educationUrl, educationObj, seteducationObj);
     GetData(projectUrl, projectObj, setprojectObj);
 
+    const print = useReactToPrint({
+        content: () => componentRef.current,
+    });
+
     return(
         <>
             <Header />
@@ -38,12 +47,14 @@ function Resume(){
                 <h1 className={styles.mainTitle}>RESUME</h1>
             </div>
 
-            <div className={styles.cvContainer}>
-                <CVDisplay profileObj={profileObj} educationObj={educationObj} projectObj={projectObj} skills={skills} experience={experience} />
+            <div className={styles.mainContainer}>
+                <div className={styles.cvContainer}>
+                    <CVDisplay ref={componentRef} profileObj={profileObj} educationObj={educationObj} projectObj={projectObj} skills={skills} experience={experience} />
+                </div>
             </div>
 
             <div className={styles.downloadDiv}>
-              <button>Download Pdf</button>
+              <button onClick={print}>Download Pdf</button>
             </div>
             <Footer />
         </>

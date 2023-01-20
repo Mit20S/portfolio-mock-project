@@ -1,15 +1,17 @@
+import React from "react";
+
 import Img from "../assets/personal.jpg"
 import styles from "../styles/cvdisplay.module.css";
 
 import { BsStarFill } from "react-icons/bs";
 import { BsStar } from "react-icons/bs";
 
-function CVDisplay(props){
+const CVDisplay = React.forwardRef((props, ref) => {
 
     const {profileObj, educationObj, projectObj, skills, experience} = props;
 
     return(
-        <main className={styles.resume}>
+        <main ref={ref} className={styles.resume}>
             <div className={styles.nameAndImg}>
                 <div className={styles.name}>
                     <h1>{profileObj.name}</h1>
@@ -91,6 +93,6 @@ function CVDisplay(props){
             </section>
         </main>
     )
-}
+});
 
 export default CVDisplay;
