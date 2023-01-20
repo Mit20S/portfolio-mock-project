@@ -91,3 +91,15 @@
 .skills{
     margin-top: 1.5rem;
 }
+
+/* Media Queries */
+
+@media screen and (max-width : 500px) {
+  .resume{
+    border: none;
+  }
+
+  .resumeSection{
+    flex-direction: column;
+  }
+}

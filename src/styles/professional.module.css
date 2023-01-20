@@ -159,11 +159,23 @@
     font-size: 1.5rem;
   }
 
+  .mainDiv{
+    flex-direction: column;
+  }
+
+  .skillDiv , .summaryDiv{
+    width: 12rem;
+  }
+
   .mainDiv h1{
     font-size: 1rem;
   }
 
   .mainDiv p{
     font-size: 0.9rem;
+  }
+
+  .expDiv{
+    margin: 5px;
   }
 }
