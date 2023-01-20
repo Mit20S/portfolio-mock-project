@@ -1,0 +1,94 @@
+
+/* Header section */
+
+.resume{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.nameAndImg{
+    display: flex;
+    margin-top: 20px;
+}
+
+.nameAndImg img{
+    height: 13vw;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.resumeSection{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+
+.projAndExp{
+    flex-basis: 90%;
+}
+
+/* Projects */
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.projects .card{
+    border: 2px solid black;
+    padding: 0.6rem;
+}
+
+.projects .card .title{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Professional */
+
+.professional{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.professional .expCard{
+    border: 2px solid black;
+    padding: 0.6rem;
+}
+
+.expCard .expSubTitle{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.pAsSpan{
+    display: inline;
+}
+
+/* Education */
+
+.education{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.education .eduBlock{
+    border:2px solid black;
+    padding: 0.3rem;
+}
+
+/* Skills */
+
+.skills{
+    margin-top: 1.5rem;
+}

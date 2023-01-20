@@ -40,9 +40,9 @@
       
       "technology": "Hardware Designing using Field Programmable Gate Array (FPGA) and Verilog ",
       
-      "contribution": "In this project I have worked on MNIST dataset for the testing and training of the NN model. For this application I have used both software and hardware platforms to obtain efficient outcomes and identify a comparative analysis between the software and hardware performance on the basis of various parameters. These parameters include accuracy, resource utilisation and operating frequency.",
+      "contribution": "In this project I have worked on MNIST dataset for the testing and training of the NN model. For this application I have used both software and hardware platforms to obtain efficient outcomes.",
       
-      "description": "With the development of technology, NN and its significance have increased over the years. Utilizations of NN like face recognition, text and digit recognition, and image classifications have been generally acknowledged everywhere. A NN is a bunch of calculations that endeavours to recognise fundamental connections in a cluster of information utilizing a technique that emulates how the human brain functions. In this project FPGAs have been considered as an alluring stage for NN execution as they are appropriate hardware accelerators absolutely inferable from their adaptability and productivity."
+      "description": "With the development of technology, NN and its significance have increased over the years. Utilizations of NN like face recognition, text and digit recognition, and image classifications have been generally acknowledged everywhere."
   },
       
   {
@@ -75,8 +75,8 @@
       {"skill_name":"React","rating":2}
     ], 
     "experience":[
-      {"job_type":"Internship", "company_name":"SetmyCoach", "role":"Senior Marketing Executive","start_date":"5th Jan 2022", "duration":"6 months", "details": "This internship exposed me to the new marketing field and provided me opportunities to learn more about marketing. I also gained knowledge of the managerial skills that are required at the real job. This internship has opened for me many more job profiles related to marketing field and hence added a new area for me to explore. Got to experience being a part of corporate team and their sessions which was quite valuable. This helped me to understand how important it is to work as a team by coordinating and learning from everyone."},
-      {"job_type":"Full-time", "company_name":"Deloitte", "role":"Analyst", "start_date":"7th Nov 2022", "duration":"Ongoing", "details": "I had DTA training after joining Deloitte. In these trainings, I learned basic and advanced frontend topics like HTML, CSS, Bootstrap, SASS, LESS, Javascript, Typescript, Angular, and React. Completed assignments, worked on two mini-projects and gave presentations in DTA training meets. Also attended all Spark Trainings shedding light on topics like Communication, Project Methodologies, Sprint Cycle, PPT Basics, Performance Management, and Time Management. These trainings helped me communicate effectively and to maximize efficiency."}
+      {"job_type":"Internship", "company_name":"SetmyCoach", "role":"Senior Marketing Executive","start_date":"5th Jan 2022", "duration":"6 months", "details": "This internship exposed me to the new marketing field and provided me opportunities to learn more about marketing. I also gained knowledge of the managerial skills that are required at the real job.This helped me to understand how important it is to work as a team by coordinating and learning from everyone."},
+      {"job_type":"Full-time", "company_name":"Deloitte", "role":"Analyst", "start_date":"7th Nov 2022", "duration":"Ongoing", "details": "I had DTA training after joining Deloitte. In these trainings, I learned basic and advanced frontend topics like HTML, CSS, Bootstrap, SASS, LESS, Javascript, Typescript, Angular, and React. Also attended Spark trainings that helped me communicate effectively and to maximize efficiency."}
     ]},
   "contact": []
 }
